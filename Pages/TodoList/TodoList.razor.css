@@ -1,0 +1,63 @@
+.table, .add-todo {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-menu {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-menu button {
+    flex: 1;
+}
+
+/* Make .add-todo look like a form with nice and large inputs */
+.add-todo, .add-todo div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+td, th {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+td input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+td input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

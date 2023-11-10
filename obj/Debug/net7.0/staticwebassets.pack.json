@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/obj/Debug/net7.0/build-gz/p+u6A++w.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/obj/Debug/net7.0/scopedcss/bundle/ToDoList.styles.css",
+      "PackagePath": "staticwebassets/ToDoList.styles.css"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/pierreabeille/Desktop/Projets/ToDoList/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ToDoList.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ToDoList.props",
+      "PackagePath": "build\\ToDoList.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ToDoList.props",
+      "PackagePath": "buildMultiTargeting\\ToDoList.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ToDoList.props",
+      "PackagePath": "buildTransitive\\ToDoList.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
