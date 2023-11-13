@@ -9,6 +9,7 @@ Chaque branche de ce dépôt représente une implémentation distincte de l'appl
 ## Fonctionnement du Dépôt
 **Branches principales** : Chaque branche principale du dépôt est nommée d'après la technologie utilisée (par exemple, `TodoList-Blazor`, `TodoList-Blazor-Syncfusion`, etc.).
 **Navigation entre les branches** : Vous pouvez facilement passer d'une branche à l'autre pour comparer les implémentations.
+
 **Technologies Exploitées**
 - Blazor (WebAssembly)
 - Blazor (WebAssembly) + Syncfusion
