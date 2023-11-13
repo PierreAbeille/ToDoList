@@ -1,8 +1,6 @@
 @page "/todolist"
 @inject TodoService TodoService
 
-<h1>Todo List</h1>
-
 <div class="filter-menu">
     <button @onclick="() => SetFilter(TodoFilter.All)">All</button>
     <button @onclick="() => SetFilter(TodoFilter.Active)">Active</button>
@@ -38,41 +36,9 @@
     </tbody>
 </table>
 
-<hr />
-
-<div class="add-todo">
-    <h2>Add Todo</h2>
-    <hr />
-    <div>
-        <h3>Todo Title</h3>
-        <input type="text" @bind="NewTodoTitle" />
-    </div>
-    <div>
-        <h3>Todo Description</h3>
-        <input type="" @bind="NewTodoDescription" />
-    </div>
-    <div>
-        <h3>Todo Due Date</h3>
-        <input type="date" @bind="NewTodoDueDate" />
-    </div>
-    <button @onclick="AddTodo">Add</button>
-</div>
-
 @code {
             public List<TodoItem> Todos { get; set; }
-
-            public string? NewTodoTitle { get; set; }
-            public string? NewTodoDescription { get; set; }
-            public DateTime NewTodoDueDate { get; set; } = DateTime.Now;
-
             public TodoFilter CurrentFilter { get; set;}
-
-            public void SetFilter(TodoFilter filter)
-            {
-                CurrentFilter = filter;
-                Todos = TodoService.GetByFilter(CurrentFilter);
-                StateHasChanged();
-            }
 
             protected override void OnInitialized()
             {
@@ -80,21 +46,11 @@
                 CurrentFilter = TodoFilter.All;
             }
 
-            public void AddTodo()
-            {   
-
-                TodoService.Add(new TodoItem
-                {
-                    Title = NewTodoTitle,
-                    Description = NewTodoDescription,
-                    DueDate = NewTodoDueDate
-                });
-
-                NewTodoTitle = string.Empty;
-                NewTodoDescription = string.Empty;
-                NewTodoDueDate = DateTime.Now;
-
-                Todos = TodoService.GetAll();
+            public void SetFilter(TodoFilter filter)
+            {
+                CurrentFilter = filter;
+                Todos = TodoService.GetByFilter(CurrentFilter);
+                StateHasChanged();
             }
 
             public void Remove(TodoItem todo)

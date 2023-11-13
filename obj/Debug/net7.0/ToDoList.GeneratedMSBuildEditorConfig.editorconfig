@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/pierreabeille/Desktop/Projets/ToDoList/Pages/AddTodo/AddTodo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkVG9kby9BZGRUb2RvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-tdiakqxlqj
+
 [/Users/pierreabeille/Desktop/Projets/ToDoList/Pages/TodoList/TodoList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9kb0xpc3QvVG9kb0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3nrh8uusjh
@@ -35,3 +39,7 @@ build_metadata.AdditionalFiles.CssScope = b-3nrh8uusjh
 [/Users/pierreabeille/Desktop/Projets/ToDoList/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6aghu7tzuu
+
+[/Users/pierreabeille/Desktop/Projets/ToDoList/Shared/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdkJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-6pz2pye8wq

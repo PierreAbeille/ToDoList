@@ -830,3 +830,5 @@
 /Users/pierreabeille/Desktop/Projets/ToDoList/obj/Debug/net7.0/ToDoList.pdb
 /Users/pierreabeille/Desktop/Projets/ToDoList/obj/Debug/net7.0/ref/ToDoList.dll
 /Users/pierreabeille/Desktop/Projets/ToDoList/obj/Debug/net7.0/scopedcss/Pages/TodoList/TodoList.razor.rz.scp.css
+/Users/pierreabeille/Desktop/Projets/ToDoList/obj/Debug/net7.0/scopedcss/Shared/NavBar.razor.rz.scp.css
+/Users/pierreabeille/Desktop/Projets/ToDoList/obj/Debug/net7.0/scopedcss/Pages/AddTodo/AddTodo.razor.rz.scp.css
