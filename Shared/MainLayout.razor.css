@@ -4,5 +4,6 @@
 }
 
 main {
+    margin-top: 6vh;
     flex: 1;
 }

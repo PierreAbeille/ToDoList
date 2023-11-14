@@ -78,32 +78,12 @@ td input[type="text"][b-3nrh8uusjh] {
 }
 
 main[b-6aghu7tzuu] {
+    margin-top: 6vh;
     flex: 1;
 }
 /* /Shared/NavBar.razor.rz.scp.css */
-nav[b-6pz2pye8wq] {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 4vw;
-    margin-bottom: 16px;
-    gap: 4vw;
-    background-color: #f5f5f5;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-ul[b-6pz2pye8wq] {
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 4vw;
-}
-
-a[b-6pz2pye8wq] {
-    text-decoration: none;
-    font-size: 1.2rem;
+.e-btn[b-6pz2pye8wq] {
+    color: #fff;
+    box-shadow: none;
+    border: none;
 }

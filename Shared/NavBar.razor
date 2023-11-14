@@ -1,15 +1,15 @@
-<nav>
-    <a href="#"> TodoList Application </a>
-    <ul>
-        <li>
-            <NavLink href="">Home</NavLink>
-        </li>
-        <li>
-            <NavLink href="/todolist">Todo List</NavLink>
-        </li>
-        <li>
-            <NavLink href="/add-todo">Add</NavLink>
-        </li>
-    </ul>
-</nav>
+@using Syncfusion.Blazor.Navigations
+@using Syncfusion.Blazor.Buttons
+@inject NavigationManager NavigationManager
+@inject Microsoft.AspNetCore.Components.NavigationManager UriHelper
+
+<div class="control-container">
+    <SfAppBar ColorMode="AppBarColor.Primary" Title="TodoList Application" IsResponsive="true">
+        <span class="regular"> TodoList Application </span>
+        <AppBarSpacer></AppBarSpacer>
+        <SfButton OnClick="@(args => NavigationManager.NavigateTo("/"))" IsPrimary="true" CssClass="e-btn">Home</SfButton>
+        <SfButton OnClick="@(args => NavigationManager.NavigateTo("/todolist"))" IsPrimary="true" CssClass="e-btn">Todo List</SfButton>
+        <SfButton OnClick="@(args => NavigationManager.NavigateTo("/add-todo"))" IsPrimary="true" CssClass="e-btn">Add</SfButton>
+    </SfAppBar>
+</div>
 

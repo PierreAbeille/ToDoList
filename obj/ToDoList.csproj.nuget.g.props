@@ -13,6 +13,8 @@
     <SourceRoot Include="/Users/pierreabeille/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)syncfusion.blazor.themes/23.1.44/buildTransitive/Syncfusion.Blazor.Themes.props" Condition="Exists('$(NuGetPackageRoot)syncfusion.blazor.themes/23.1.44/buildTransitive/Syncfusion.Blazor.Themes.props')" />
+    <Import Project="$(NuGetPackageRoot)syncfusion.blazor/23.1.44/buildTransitive/Syncfusion.Blazor.props" Condition="Exists('$(NuGetPackageRoot)syncfusion.blazor/23.1.44/buildTransitive/Syncfusion.Blazor.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly/7.0.13/build/net7.0/Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly/7.0.13/build/net7.0/Microsoft.AspNetCore.Components.WebAssembly.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

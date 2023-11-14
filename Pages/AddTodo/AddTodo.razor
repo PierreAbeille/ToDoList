@@ -1,7 +1,8 @@
 @page "/add-todo"
 @inject TodoService TodoService
 
-<div class="add-todo-item">
+@* Old version without syncfusion *@
+@* <div class="add-todo-item">
     <h2>Add Todo</h2>
     <hr />
     <div>
@@ -16,7 +17,27 @@
         <h3>Todo Due Date</h3>
         <input type="date" @bind="NewTodoDueDate" />
     </div>
-    <button @onclick="AddTodoItem">Add</button>
+    <SfButton Content="Add todo" @onclick="AddTodoItem"> Add </SfButton>
+</div> *@
+
+@* New version with syncfusion *@
+<div class="add-todo-item">
+    <h2>Add Todo</h2>
+    <hr />
+    <div>
+        <h4>Todo Title</h3>
+        <SfTextBox Value="@NewTodoTitle" ValueChanged="@((string newValue) => NewTodoTitle = newValue)"></SfTextBox>
+    </div>
+    <div>
+        <h4>Todo Description</h3>
+        <SfTextBox Value="@NewTodoDescription" ValueChanged="@((string newValue) => NewTodoDescription = newValue)"></SfTextBox>
+    </div>
+    <div>
+        <h4>Todo Due Date</h3>
+        <SfDatePicker Value="@NewTodoDueDate" ValueChanged="@((DateTime newValue) => NewTodoDueDate = newValue)"></SfDatePicker>
+    </div>
+    <hr />
+    <SfButton Content="Add todo" @onclick="AddTodoItem"> Add </SfButton>
 </div>
 
 @code {
